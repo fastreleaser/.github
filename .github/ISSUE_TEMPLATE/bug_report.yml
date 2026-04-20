@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible problem in a FastReleaser repository.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please include enough detail for someone else to reproduce the issue.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: Which FastReleaser repository is affected?
+      placeholder: fastreleaser/fastreleaser
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version, tag, or commit is affected?
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: What steps reproduce the problem?
+      placeholder: |
+        1. Run ...
+        2. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Logs, screenshots, config snippets, or anything else that helps.
