@@ -1,5 +1,7 @@
 # FastReleaser
 
+[![Status](https://img.shields.io/badge/status-in%20development-orange)](https://github.com/fastreleaser/fastreleaser)
+
 Draft release fast. Publish instantly. Keep main linear.
 
 FastReleaser keeps release work on `fastreleaser/<tag>` while a draft release is still mutable. `update` keeps that branch one commit ahead of the default branch, `upload` refreshes the draft release assets, and `yield` fast-forwards the default branch and publishes the release.
