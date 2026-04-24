@@ -4,13 +4,11 @@
 
 Draft release fast. Publish instantly. Keep main linear.
 
-The fastreleaser keeps release work on `fastreleaser/<tag>` while a draft release is still mutable. `update` keeps that branch one commit ahead of the default branch, `upload` refreshes the draft release assets, and `yield` fast-forwards the default branch and publishes the release.
+The fastreleaser keeps draft release work unpublished until it is ready to ship, then turns that approved draft into a clean public release without depending on a fixed versioning scheme.
 
 ## Repositories
 
 - [fastreleaser/fastreleaser](https://github.com/fastreleaser/fastreleaser): core CLI and release workflow automation, currently experimental
-- [fastreleaser/fastreleaser-apache-template](https://github.com/fastreleaser/fastreleaser-apache-template): commit-1 source material for the fresh canonical repo
-- [fastreleaser/ai-orc](https://github.com/fastreleaser/ai-orc): long-term workspace and baseline settings for AI agents and human contributors
 
 ## Defaults
 
