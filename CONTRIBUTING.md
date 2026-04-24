@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve FastReleaser.
+Thanks for helping improve fastreleaser.
 
 ## Before you start
 

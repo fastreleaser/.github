@@ -2,7 +2,7 @@
 
 ## Getting help
 
-- Usage questions: open a GitHub discussion or issue in the relevant repository once Discussions or repo-specific guidance is available.
+- Usage questions: open a GitHub discussion or issue in the relevant fastreleaser repository once Discussions or repo-specific guidance is available.
 - Bug reports: use the bug report issue template.
 - Feature ideas: use the feature request issue template.
 - Security concerns: follow [SECURITY.md](SECURITY.md) and use the private contact there.
